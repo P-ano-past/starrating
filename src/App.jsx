@@ -8,11 +8,16 @@ function App() {
 
   return (
     <div className="App">
+<<<<<<< HEAD
       <h1>Hello</h1>
       <p>
         This a demonstration of state handling and passing of
         props while also illustrating a simple 5 star rating system.
       </p>
+=======
+      <h1>hello</h1>
+      <p>This is to demonstrate the use case of state handling and passing of props while also illustrating a simple 5 star rating system.</p>
+>>>>>>> 9029b3cf85071001a97a578029de009bad4f6cc3
       <Container>
         <Row>
           <Col>
@@ -58,8 +63,18 @@ function App() {
             </Button>
           </Col>
         </Row>
+<<<<<<< HEAD
       </Container>
       <Stars priority={priority} setNumber={setNumber} />
+=======
+        </Container>
+      <Stars
+        priority={priority}
+        setNumber={setNumber}
+      />
+<h3>The magic: </h3>
+      <p>When clicking on the button, the numerical value is passed down to the "Stars" component, when the switch case takes that value, returns the star value, then triggers a rerender for the viewer to see the new value of stars. </p>
+>>>>>>> 9029b3cf85071001a97a578029de009bad4f6cc3
     </div>
   );
 }
